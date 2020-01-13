@@ -1,16 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-// import Clock from './routes/Clock.js'
-function App() {
-  return (
 
+function Details() {
+  return (
     <div className="App">
-      {/* <Clock date={new Date()}></Clock> */}
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code>src/Route.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -25,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+export default Details;
